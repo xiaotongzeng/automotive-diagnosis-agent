@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Acura 汽车报了 P1106 和 P1203 故障，是什么意思？",
+    "expected_topic": "BARO"
+  },
+  {
+    "question": "P0301代表什么故障？",
+    "expected_topic": "Cylinder 1 Misfire"
+  },
+  {
+    "question": "P0420是什么？",
+    "expected_topic": "Catalyst"
+  },
+  {
+    "question": "P0171是什么意思？",
+    "expected_topic": "System Too Lean"
+  },
+  {
+    "question": "发动机第一缸失火可能是什么原因？",
+    "expected_topic": "Misfire"
+  }
+]

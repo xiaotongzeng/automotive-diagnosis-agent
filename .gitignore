@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Generated vector stores
+vector_store/
+
+# Local data
+data/
+
+# Model files
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Logs
+*.log

@@ -1,0 +1,13 @@
+chromadb
+fastapi
+jieba
+langchain-chroma
+langchain-core
+langchain-huggingface
+langchain-openai
+langgraph
+rank-bm25
+python-dotenv
+sentence-transformers
+streamlit
+uvicorn[standard]
