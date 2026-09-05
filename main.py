@@ -1,4 +1,5 @@
 import sys
+import argparse
 from pathlib import Path
 
 from langchain_core.messages import HumanMessage
@@ -24,7 +25,10 @@ def main():
         build_all_indices()
 
     # 3. 运行 Agent 诊断
-    user_query = "Acura 汽车报了 P1106 和 P1203 故障，是什么意思？"
+    parser = argparse.ArgumentParser(description="Automotive Diagnosis Agent CLI")
+    parser.add_argument("query", nargs="?", default="Acura 汽车报了 P1106 和 P1203 故障，是什么意思？", help="输入车辆故障诊断问题")
+    args = parser.parse_args()
+    user_query = args.query
 
     print(f"\n❓ 用户提问: {user_query}")
 
